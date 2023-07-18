@@ -1,5 +1,5 @@
 {
-  "name": "@reforged/maker-appimage",
+  "name": "@futpib/maker-appimage",
   "version": "3.3.1",
   "description": "An AppImage maker implementation for the Electron Forge.",
   "main": "dist/main.js",
