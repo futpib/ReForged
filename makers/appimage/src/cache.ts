@@ -39,6 +39,7 @@ export class Cache {
       await fs.remove(cachePath);
     }
 
+    await fs.ensureDir(path.dirname(cachePath));
     await fs.writeFile(cachePath, Buffer.from(fileBuffer));
 
     return cachePath;
